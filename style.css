@@ -12,7 +12,11 @@ html {
 }
 
 body {
-  padding: 3rem 1rem;
+  border-top: 1rem solid white;
+  border-bottom: 1rem solid white;
+  border-left: 1rem solid white;
+  border-right: 1rem solid white;
+  /* padding: 3rem 1rem; */
 }
 
 .text {
@@ -79,7 +83,8 @@ body {
 /* ///////////////////////////////////////////////////////// */
 .resume {
   width: 800px;
-  height: 1131.36px;
+  height: 989.94px;
+  /* height: 1131.36px; */
   /* height: 100%; */
 
   display: grid;
@@ -97,12 +102,13 @@ body {
 
 .right,
 .left {
-  margin-top: 8rem;
+  margin-top: 5rem;
 }
 .middle {
-  padding: 5rem 3rem;
+  padding: 5rem 3rem 0 3rem;
   border-radius: 200px;
   background-color: rgb(25, 189, 211, 0.2);
+  height: 100%;
 }
 
 .profile-img {
