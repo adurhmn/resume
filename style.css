@@ -30,6 +30,10 @@ body {
   font-weight: bold;
 }
 
+.text--underline {
+  text-decoration: underline;
+}
+
 .text--theme {
   color: var(--color-theme);
 }
