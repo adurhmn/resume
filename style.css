@@ -9,20 +9,16 @@ html {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  border-top: 1rem solid white;
-  border-bottom: 1rem solid white;
-  border-left: 1rem solid white;
-  border-right: 1rem solid white;
-  /* padding: 3rem 1rem; */
 }
 
 .text {
   font-size: 1.3rem;
   color: var(--color-text);
-  line-height: 1.8;
+  line-height: 1.7;
 }
 
 .text--bold {
@@ -86,11 +82,14 @@ body {
 /* /// LAYOUT */
 /* ///////////////////////////////////////////////////////// */
 .resume {
+  box-sizing: border-box;
   width: 800px;
-  height: 989.94px;
-  /* max-height: 989.94px; */
-  /* height: 1131.36px; */
+  height: 1131.36px;
   /* overflow: hidden; */
+  border-top: 1rem solid white;
+  border-bottom: 1rem solid white;
+  border-left: 0.5rem solid white;
+  border-right: 0.5rem solid white;
 
   display: grid;
   grid-template-columns: 1fr 1.2fr 1fr;
@@ -114,7 +113,6 @@ body {
   border-radius: 200px;
   background-color: rgb(25, 189, 211, 0.2);
   height: 100%;
-  /* box-sizing: border-box; */
 }
 
 .profile-img {
