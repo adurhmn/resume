@@ -84,8 +84,8 @@ html {
   /* overflow: hidden; */
   border-top: 1rem solid white;
   border-bottom: 1rem solid white;
-  border-left: 0.5rem solid white;
-  border-right: 0.5rem solid white;
+  border-left: 1rem solid white;
+  border-right: 1rem solid white;
 
   display: grid;
   grid-template-columns: 1fr 1.2fr 1fr;
